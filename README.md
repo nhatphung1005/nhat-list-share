@@ -67,3 +67,8 @@ Cả 4 agent đều phục vụ skill `impeccable`, được skill tự spawn.
 | `block-dangerous-git.js` | Chặn lệnh git nguy hiểm (exit 2): merge MR, auto-merge, push thẳng vào `sprint_*`/`develop`/`main`/`master`, force-push, `reset --hard`, `clean -f`, `branch -D`, `checkout .`, `restore .`. Push nhánh feature và tạo MR vẫn được. Merge để người dùng tự bấm. |
 | `block-dangerous-git.test.js` | Test cho hook trên: các lệnh nào phải bị chặn, lệnh nào phải cho qua. Chạy: `node hooks/block-dangerous-git.test.js`. |
 
+
+## Nguồn và giấy phép
+
+- `skills/impeccable/` và 4 agent impeccable: lấy từ [pbakaus/impeccable](https://github.com/pbakaus/impeccable), giấy phép Apache 2.0.
+- `hooks/block-dangerous-git.js`, `grill-with-docs`, `diagnosing-bugs`: chuyển thể từ [mattpocock/skills](https://github.com/mattpocock/skills).
