@@ -1,0 +1,9 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "nhat-list",
+  "description": "Marketplace cục bộ của người dùng.",
+  "owner": { "name": "người dùng" },
+  "plugins": [
+    { "name": "nhat-list", "description": "Bộ skill + hook cá nhân của người dùng.", "source": "./", "category": "productivity" }
+  ]
+}

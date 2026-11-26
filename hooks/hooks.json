@@ -1,0 +1,25 @@
+{
+  "hooks": {
+    "UserPromptSubmit": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "echo human-sound: neu tin nhan nay la mot lenh lam viec, khong phai ok/duyet/chon nut, thi dung skill human-sound - mo dau bang khoi Y ban la noi lai yeu cau bang loi cua người dùng truoc khi lam."
+          }
+        ]
+      }
+    ],
+    "PreToolUse": [
+      {
+        "matcher": "Bash|PowerShell",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node \"${CLAUDE_PLUGIN_ROOT}/hooks/block-dangerous-git.js\""
+          }
+        ]
+      }
+    ]
+  }
+}

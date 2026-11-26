@@ -1,0 +1,10 @@
+{
+  "name": "nhat-list",
+  "version": "1.2.1",
+  "description": "Bộ skill + hook cá nhân của người dùng: human-sound, wait-what, handoff, diagnosing-bugs, review-2-truc, grill-with-docs, impeccable (+4 agent), mr-chi-tiet; hook nhắc human-sound và chặn git nguy hiểm (merge MR, push thẳng nhánh chung, force-push...).",
+  "author": {
+    "name": "người dùng"
+  },
+  "skills": "./skills/",
+  "hooks": "./hooks/hooks.json"
+}

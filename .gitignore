@@ -1,0 +1,15 @@
+# Engine binary: launcher re-downloads + verifies it from GitHub releases when missing
+skills/impeccable/scripts/bin/
+
+# Secrets / local env
+.env
+.env.*
+*.pem
+*.key
+TEST-ACCOUNTS*.md
+
+# Junk
+node_modules/
+*.log
+.DS_Store
+Thumbs.db
